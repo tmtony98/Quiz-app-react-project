@@ -54,8 +54,8 @@ function QuizView(props) {
       {allanswered ? (
         <div className="results container-fluid">
           <div className="row d-flex flex-row justify-content-center">
-            <div className="col-lg-6 mt-5 p-2 bg-light">
-              <h2 className="text-center fw-bold p-4">Results</h2>
+            <div className="col-lg-6 mt-5 p-2 bg-dark">
+              <h2 className="text-center text-primary fw-bold p-4">Results</h2>
               <h1  style={{ fontSize: "45px" }} className="text-primary  text-center">Score </h1>
               <h1
                 style={{ fontSize: "55px",marginTop:"-10px" }}
@@ -81,7 +81,7 @@ function QuizView(props) {
       ) : (
         <div className="container-fluid">
           <div className="row d-flex flex-row justify-content-center">
-            <div className="col-lg-6 col-sm-6 col-md-6 text-start rounded py-4 bg-light mt-5 ">
+            <div className="col-lg-6 col-sm-6 col-md-6 text-start rounded py-4 bg-dark mt-5 ">
               <div className="mt-2 ">
                 <h1 className="text-primary text-center py-3">Quiz App</h1>
                 <div className=" mx-3 p-2 quiz-box">
