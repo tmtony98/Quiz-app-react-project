@@ -47,7 +47,7 @@ function QuizView(props) {
   const [score, setScore] = useState(0);
   const [wrong, setWrong] = useState(0);
   const [currentQuestion, setCurrentQuestion] = useState(0);
-  const [allanswered, setAllanswered] = useState(true);
+  const [allanswered, setAllanswered] = useState(false);
 
   return (
     <>
